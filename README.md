@@ -21,7 +21,7 @@ sudo apt-get install libx11-dev libxext-dev libxrender-dev \
 - download jdk source and compile
 
 ```
-git clone https://github.com/henrywoo/openjdk
+git clone -b clion_debug https://github.com/henrywoo/openjdk
 cd openjdk
 ./configure --with-debug-level=slowdebug --enable-dtrace \
     --with-jvm-variants=server --with-target-bits=64 \
@@ -33,5 +33,7 @@ make JOBS=8
 - open Clion and import source code
 
 ![](img/1.png)
+
+
 
 
