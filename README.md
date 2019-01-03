@@ -34,6 +34,12 @@ make JOBS=8
 
 ![](img/1.png)
 
+- edit debug configuration
 
+![](img/2.png)
+
+- set breakpoint and debug
+
+![](img/3.png)
 
 
