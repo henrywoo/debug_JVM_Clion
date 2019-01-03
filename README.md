@@ -23,7 +23,10 @@ sudo apt-get install libx11-dev libxext-dev libxrender-dev \
 ```
 git clone https://github.com/henrywoo/openjdk
 cd openjdk
-./configure --with-debug-level=slowdebug --enable-dtrace --with-jvm-variants=server --with-target-bits=64 --enable-ccache --with-num-cores=8 --with-memory-size=8000  --disable-warnings-as-errors
+./configure --with-debug-level=slowdebug --enable-dtrace \
+    --with-jvm-variants=server --with-target-bits=64 \
+    --enable-ccache --with-num-cores=8 --with-memory-size=8000  \
+    --disable-warnings-as-errors
 make JOBS=8
 ```
 
