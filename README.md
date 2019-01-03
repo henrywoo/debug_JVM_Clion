@@ -30,4 +30,8 @@ cd openjdk
 make JOBS=8
 ```
 
+- open Clion and import source code
+
+![](img/1.png)
+
 
